@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "apr.h": "c",
+        "types.h": "c",
+        "devpkg_directory.h": "c",
+        "shell.h": "c"
+    }
+}
