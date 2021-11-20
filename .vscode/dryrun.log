@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/corycobb/Documents/Dev/c stuff/devpkg'
+CLANG    -c -o bstrlib.o bstrlib.c
+CLANG    -c -o db.o db.c
+CLANG    -c -o shell.o shell.c
+CLANG    -c -o commands.o commands.c
+CLANG    -c -o stringhelp.o stringhelp.c
+CLANG   -L/usr/local/apr/lib	-lapr-1	-pthread	-laprutil-1  devpkg.c bstrlib.o db.o shell.o commands.o stringhelp.o   -o devpkg
+make: Leaving directory `/Users/corycobb/Documents/Dev/c stuff/devpkg'
+ 
